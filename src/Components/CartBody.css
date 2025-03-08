@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Heading{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.Body{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+.CartItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 20%;
+}
+.cartItemSub > img {
+    width: 80px;  
+    height: 80px; 
+    object-fit: contain; 
+    display: flex;
+    align-items: center;
+}
+.cartItemSub{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.CartDetails{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    all: unset;
+    cursor: pointer;
+    color: blue;
+}
+

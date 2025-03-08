@@ -1,0 +1,28 @@
+.HeaderClass{
+    background-color: rgb(100,92,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20%;
+    color: white;
+    font-size: 28px;
+}
+.cartIconClass{
+    position: absolute;
+    display: inline-block;
+}  
+.supClass{
+    position: relative;
+    top: -10px;  /* Adjust to position it properly */
+    right: -15px; /* Adjust to position it properly */
+    background-color: rgb(168,178,251);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
